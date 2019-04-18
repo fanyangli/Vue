@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximun-scale=1">
+		<!-- Edge模式通知 Windows Internet Explorer 以最高级别的可用模式显示内容 -->
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>websocket示例</title>
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	</head>
+	<style type="text/css">
+		/* 手机 */
+		@media only screen and (min-width : 320px) {
+			.col-xs-12 {
+				flex: 0 0 100%;
+			}
+		}
+
+		/* 平板 */
+		@media only screen and (min-width : 768px) {
+			.col-md-6 {
+				flex: 0 0 50%;
+			}
+		}
+
+		/* 中等屏幕 */
+		@media only screen and (min-width : 992px) {
+			.col-lg-4 {
+				flex: 0 0 33.33%;
+			}
+		}
+
+		/* 宽屏设备 */
+		@media only screen and (min-width : 1200px) {
+			.col-xl-3 {
+				flex: 0 0 25%;
+			}
+		}
+
+		.btn-floating {
+			/* 阴影效果，四个参数分别是：水平阴影位置、垂直阴影位置、阴影尺寸位置大小、阴影颜色 */
+			width: 40px;
+			height: 40px;
+			margin: 10px;
+			border-radius: 50%;
+			padding: 0;
+			cursor: pointer;
+			border: none;
+		}
+
+		/* 绿色渐变色按钮 */
+		.greed-gradient {
+			background: linear-gradient(40deg, #AFEEEE, #008080);
+			color: #FFF;
+		}
+
+		body {
+			background-image: url(img/background2.jpeg);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		.message {
+			position: absolute;
+			bottom: 0;
+			width: 95%;
+		}
+		.message1 {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			bottom: 0;
+			width: 104%;
+		}
+
+		#box{
+			width: 400px;
+			height: 300px;
+			position: fixed;
+			right: 0;
+			bottom: 0;
+			color: #FFFFFF;
+			font-size: 20px;
+		}
+		#pic a #closeBtn{
+			/* background: #EEEEEE no-repeat -399px -19px; */
+			width: 16px;
+			height: 16px;
+			display: inline-block;
+			position: absolute;
+			top:5px;
+			right: 5px;
+		}
+		#pic a #closeBtn:hover{
+			/* background-position: -343px -19px; */
+		}
+		.wenben {
+			width: 65%;
+			height: 25px;
+		}
